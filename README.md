@@ -9,7 +9,7 @@ This action sets up sonar-scanner tool. It downloads sonar-scanner binaries from
 ```yaml
 - uses: md-actions/setup-sonar-scanner@v1
 ```
-## Set up specific yq version
+## Set up specific sonar scanner version
 ```yaml
 - uses: md-actions/setup-sonar-scanner@v1
   with:
