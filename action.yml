@@ -1,6 +1,6 @@
 name: 'setup-sonar-scanner'
 description: 'setup sonar scanner'
-author: 'DPVO'
+author: 'freenet'
 inputs:
   version: 
     required: true
