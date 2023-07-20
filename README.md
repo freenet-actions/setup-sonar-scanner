@@ -3,15 +3,14 @@
 
 This action sets up sonar-scanner tool. It downloads sonar-scanner binaries from https://binaries.sonarsource.com/Distribution/sonar-scanner-cli and adds path to PATH
 
-   
+
 # Usage
-## Set up default sonar scanner version (4.7.0.2747)
+## Set up default sonar scanner version (4.8.0.2856)
 ```yaml
 - uses: freenet-actions/setup-sonar-scanner@v2
-```
+
 ## Set up specific sonar scanner version
 ```yaml
 - uses: freenet-actions/setup-sonar-scanner@v2
   with:
-    version: 4.7.0.2747
-```
+    version: 4.8.0.2856
