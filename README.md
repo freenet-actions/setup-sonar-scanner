@@ -5,7 +5,7 @@ This action sets up sonar-scanner tool. It downloads sonar-scanner binaries from
 
 
 # Usage
-## Set up default sonar scanner version (4.8.0.2856)
+## Set up default sonar scanner version (5.0.1.3006)
 ```yaml
 - uses: freenet-actions/setup-sonar-scanner@v2
 
@@ -13,4 +13,4 @@ This action sets up sonar-scanner tool. It downloads sonar-scanner binaries from
 ```yaml
 - uses: freenet-actions/setup-sonar-scanner@v2
   with:
-    version: 4.8.0.2856
+    version: 5.0.1.3006
