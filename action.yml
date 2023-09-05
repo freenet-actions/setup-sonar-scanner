@@ -7,5 +7,5 @@ inputs:
     description: 'Version of Sonar Scanner'
     default: '5.0.1.3006'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
